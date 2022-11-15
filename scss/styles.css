@@ -1,0 +1,44 @@
+body {
+  background: crimson;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 30%;
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+}
+main h3 {
+  text-align: center;
+}
+main form {
+  display: flex;
+  gap: 5px;
+}
+main form button {
+  background: crimson !important;
+  color: #fff !important;
+}
+main .todo-list {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+main .todo-list .todo-list-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+main .todo-list .todo-list-item p {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+main .todo-list .todo-list-item button {
+  border: none;
+  background: transparent;
+}/*# sourceMappingURL=styles.css.map */

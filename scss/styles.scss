@@ -1,0 +1,54 @@
+$accentColor: crimson;
+
+body {
+    background: $accentColor;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main {
+    width: 30%;
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+
+    h3 {
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        gap: 5px;
+
+        button {
+            background: $accentColor !important;
+            color: #fff !important;
+        }
+    }
+
+    .todo-list {
+        margin-top: 20px;
+        list-style: none;
+        padding: 0;
+
+        .todo-list-item {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            margin: 15px 0px;
+
+            p {
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+
+            button {
+                border: none;
+                background: transparent;
+            }
+        }
+    }
+}
