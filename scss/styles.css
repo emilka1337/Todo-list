@@ -33,6 +33,10 @@ main .todo-list .todo-list-item {
   width: 100%;
   justify-content: space-between;
   margin: 15px 0px;
+  cursor: pointer;
+}
+main .todo-list .todo-list-item.completed p {
+  text-decoration: line-through;
 }
 main .todo-list .todo-list-item p {
   font-weight: 500;
